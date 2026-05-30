@@ -1,0 +1,15 @@
+# 默认按文本处理，仓库内统一存为 LF（避免跨平台换行差异与 CRLF 警告）
+* text=auto eol=lf
+
+# 二进制文件不做换行转换
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.wav binary
+*.mp3 binary
+*.flac binary
+*.opus binary
+*.pcm binary
+*.mp4 binary

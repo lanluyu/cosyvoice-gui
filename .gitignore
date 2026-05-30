@@ -1,0 +1,47 @@
+# ---- Python 字节码 / 打包产物 ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# ---- 虚拟环境 ----
+.venv/
+venv/
+env/
+ENV/
+
+# ---- 密钥与本地配置（禁止入库）----
+.env
+.env.local
+.env.*.local
+
+# ---- 日志与运行产物 ----
+logs/
+*.log
+
+# ---- 本地数据：音频/视频素材与合成产物（含版权素材，勿入库；保留空目录占位）----
+data/*
+!data/.gitkeep
+
+# ---- IDE / 工具缓存与会话记录 ----
+.idea/
+.vscode/
+.playwright-mcp/
+.claude/
+RESUME.txt
+
+# ---- 测试 / 类型检查 / lint 缓存 ----
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# ---- 操作系统 ----
+.DS_Store
+Thumbs.db

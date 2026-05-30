@@ -1,0 +1,10 @@
+# conda 环境定义：阿里云百炼语音能力封装
+# 创建/更新：conda env update -f environment.yml
+name: trade
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.14
+  - requests>=2.31
+  - pypinyin>=0.51    # 古文多音字拼音标注（to_pinyin_ssml）
