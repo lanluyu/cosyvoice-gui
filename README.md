@@ -4,6 +4,8 @@
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![GUI](https://img.shields.io/badge/GUI-PySide6-orange)
 
+![CosyVoice 语音合成桌面应用界面](docs/images/gui.png)
+
 阿里云百炼（DashScope）语音能力的轻量封装，含两部分：
 
 - **核心库 `dashscope_audio`** —— 用 `requests` 直连百炼 HTTP API，覆盖 CosyVoice / Qwen-TTS 非实时合成、声音复刻、OpenAI 兼容模式 LLM 调用。
